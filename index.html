@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 style="text-align:center">Search for github users</h1>
+    <div class="container">
+    <form id="form" autocomplete="off">
+    <div class="form-group">
+      <input type="text" class="form-control" id="search" placeholder="type the username you want to search">
+     <div class="form-group">
+    <button class="btn btn-success " >Search</button>
+    </div> 
+    </form>
+    <div id="result"></div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
