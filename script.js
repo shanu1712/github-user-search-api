@@ -24,3 +24,18 @@ form.addEventListener('submit', function (e) {
       /// targetting with anchor tag and displai=ying the search result for the users in the next window
     });
 });
+
+////////
+// with async await
+/*
+async function fetchData(){
+  const response=await fetch("https://api.github.com/users/")
+  return response
+}
+
+fetchData().then(function(response){
+  return response.json()
+}).then(function(response){
+  console.log(response)
+})
+*/
